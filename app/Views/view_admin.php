@@ -1,6 +1,6 @@
-<?= $this->extend('template'); ?>
+<?=$this->extend('template');?>
+<?=$this->section('content');?>
 
-<?= $this->section('content'); ?>
 <div class="wrapper">
 
   <!-- Preloader -->
@@ -840,8 +840,12 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-    <!-- Bakalan diubah -->
-</div>
+
+    <!-- Main content -->
+   <!-- bakal diubah -->
+    </section>
+    <!-- /.content -->
+  </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
@@ -860,4 +864,3 @@
 <!-- ./wrapper -->
 
 <?= $this->endSection(); ?>
-

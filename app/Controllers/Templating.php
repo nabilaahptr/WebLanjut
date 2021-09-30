@@ -11,10 +11,10 @@ class Templating extends BaseController
 	$data = [
 		'title' => "Blog - Posts"
 	];
-	// echo view ('layouts/header', $data);
-	// echo view ('layouts/navbar');
-    // echo view ('v_posts');
-    // echo view ('layouts/footer');
+	//echo view ('layout/header', $data);
+	//echo view ('layout/navbar');
+    //echo view ('v_post');
+    //echo view ('layout/footer');
     return view('view_admin');
 	}
 
